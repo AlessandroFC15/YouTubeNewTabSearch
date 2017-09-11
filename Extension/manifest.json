@@ -3,7 +3,7 @@
   "manifest_version": 2,
   "name": "YouTube Search New Tab",
   "description": "Description",
-  "version": "1.0",
+  "version": "0.0.0.1",
 
   "permissions": [
     "*://youtube.com/*"

@@ -17,8 +17,6 @@
                 "from the extension");
 
             openTabRightNextToActiveTab(request.url, sender.tab.index);
-
-            sendResponse({success: true});
         });
 }());
 
