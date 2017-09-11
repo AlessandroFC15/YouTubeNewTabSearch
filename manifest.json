@@ -1,0 +1,24 @@
+{
+  "author": "Alessandro Costa",
+  "manifest_version": 2,
+  "name": "YouTube Search New Tab",
+  "description": "Description",
+  "version": "1.0",
+
+  "permissions": [
+    "*://youtube.com/*"
+  ],
+
+  "content_scripts": [{
+    "matches": ["*://www.youtube.com/*"],
+    "js": [
+      "main.js"
+    ],
+    "run_at": "document_idle"
+  }],
+
+  "background": {
+    "scripts": ["eventPage.js"],
+    "persistent": false
+  }
+}
