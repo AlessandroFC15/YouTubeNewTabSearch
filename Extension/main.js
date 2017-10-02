@@ -42,6 +42,8 @@
                 newButton.style.borderRadius = "0 2px 2px 0";
                 newButton.style.margin = "0";
                 newButton.style.textAlign = "center";
+
+                insertAfter(newButton, normalSearchButton);
             } else {
                 inputSearch = document.getElementById('masthead-search-term');
 
@@ -49,6 +51,8 @@
                 newButton.type = "button";
                 newButton.className = "yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button";
                 newButton.style.padding = "0px 20px 0px 20px";
+
+                normalSearchButton.parentNode.insertBefore(newButton, normalSearchButton);
             }
 
             newButton.innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 24 30" ' +
@@ -60,8 +64,6 @@
 
                 chrome.runtime.sendMessage({url: 'https://www.youtube.com/results?search_query=' + queryTerm});
             });
-
-            insertAfter(newButton, normalSearchButton);
         }
     }
 
