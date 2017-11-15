@@ -1,6 +1,6 @@
 # YouTubeNewTabSearch
 
-A Chrome Extension that offers an option to open YouTube search results in a new tab
+A Chrome Extension that offers an option to open YouTube search results in a new tab.
 
 ## Project Info
 
