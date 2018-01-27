@@ -4,21 +4,24 @@
   "name": "YouTube Search New Tab",
   "description": "Description",
   "version": "0.0.0.1",
-
   "permissions": [
     "*://youtube.com/*"
   ],
-
-  "content_scripts": [{
-    "matches": ["*://www.youtube.com/*"],
-    "js": [
-      "main.js"
-    ],
-    "run_at": "document_idle"
-  }],
-
+  "content_scripts": [
+    {
+      "matches": [
+        "*://www.youtube.com/*"
+      ],
+      "js": [
+        "main.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
   "background": {
-    "scripts": ["eventPage.js"],
+    "scripts": [
+      "eventPage.js"
+    ],
     "persistent": false
   }
 }
