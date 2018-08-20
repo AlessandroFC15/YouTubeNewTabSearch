@@ -23,5 +23,8 @@
       "eventPage.js"
     ],
     "persistent": false
-  }
+  },
+  "icons": { "16": "assets/logos/16.png",
+           "32": "assets/logos/32.png",
+          "128": "assets/logos/128.png" }
 }
