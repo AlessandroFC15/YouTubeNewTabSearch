@@ -2,7 +2,7 @@
   "author": "Alessandro Costa",
   "manifest_version": 2,
   "name": "YouTube Search New Tab",
-  "description": "Description",
+  "description": "A simple YouTube twaek that offers an option to open YouTube search results in a new tab so you can search the next video without stopping the current video.",
   "version": "0.0.0.1",
   "permissions": [
     "*://youtube.com/*"
